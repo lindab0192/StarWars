@@ -1,0 +1,74 @@
+* {
+	transition: all 0.4s linear;
+}
+body {
+    text-align: center;
+    background: #222A61;
+    color: #EDE53E;
+    font-size: 90%;
+    height: 50%;
+  }
+
+  .obi-section {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    height: 50%;
+    gap: 6em; /* Ökar avståndet mellan elementen */
+    margin-bottom: 1em; /* Lägg till lite avstånd mellan sektionen och hr */
+  }
+
+  img {
+    width: 30em;
+    height: auto;
+    /* padding-left: 5em;
+    padding-right: 5em ; */
+    flex:1 1 0;
+  }
+ 
+  #get-info-button {
+    width: 30%; /* Gör knappen bredare */
+    /* padding: 8px;  *//* Lägg till lite extra padding för att göra den snyggare */
+    text-align: center;
+    flex:1 1 0;
+  }
+  .results {
+    width: 100%;
+    text-align: center;
+    margin-top: 0.5em; /* Minskar avståndet mellan knappen och result */
+    flex: 1 1 0;
+  }
+  
+  .search-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 0,5em;
+    margin-top: 1em;
+  }
+  .search-section >div {
+    flex: 1;
+  }
+ input {
+    width: 30%;
+  }
+  
+  button {
+    border: none;
+    border-radius: 0.5em;
+    padding: 0.4em 0.8em;
+    background: #526FEE;
+    color: #EDE53E;
+  }
+  
+  button:hover {
+    background: #222A61;
+    cursor: pointer;
+  }
+  
+  hr {
+    border-color: #526FEE;
+    border-width: 0.1em;
+    margin: 1em 0;
+  }

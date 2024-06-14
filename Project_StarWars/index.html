@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>StarWars</title>
+    <script type="module" src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+    <body>
+      <main>
+        <h1>Star Wars API search</h1>
+        <section class="obi-section">
+        <img src="obi.jpg" alt="Obi-Wan Kenobi">
+        <button id="get-info-button">Who is Obi-Wan?</button>
+        <div class="results">
+          <p>Let me introduce myself...</p>
+        </div>
+        <div>
+          <h2>I'm happy to help you in you quest for knowledge!<br> 
+             Simply write the caracter you want to get to know a little better in the field below. </h2>
+        </div>
+        </section>
+        <hr />
+        <section class="search-section">
+          <div>
+              <input type="text" placeholder="Who are you looking for?" id="character-input" />
+              <button id="search-character-button">Help me Obi-Wan!</button>
+              <div class='ApiSearch'>
+                  <p>Nothing yet...</p>
+              </div>
+          </div>
+          <div>
+              <input type="text" placeholder="What planet are you seeking?" id="planet-input" />
+              <button id="search-planet-button">Help me Obi-Wan!</button>
+              <div class='ApiSearch'>
+                  <p>Nothing yet...</p>
+              </div>
+          </div>
+      </section>
+      <hr />
+      <!--<section class="Previous-section">
+          <p id="save-el">You have learned about: </p>
+      </section> -->
+    </main>
+  </body>
+</html>
